@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6ef4962-af5b-4ec0-8401-389684403fe9" name="Changes" comment="1">
+    <list default="true" id="b6ef4962-af5b-4ec0-8401-389684403fe9" name="Changes" comment="2">
+      <change afterPath="$PROJECT_DIR$/.idea/Html/page2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Html/Html.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Html/Html.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -41,12 +42,12 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Html.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AcademIT-webCource/.idea/Html/Html.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AcademIT-webCource/.idea/Html/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Html.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -58,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669468487870</updated>
-      <workItem from="1669468493991" duration="1299000" />
+      <workItem from="1669468493991" duration="4591000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1669468771237</created>
@@ -74,7 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669468795520</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <created>1669469952573</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669469952573</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2">
+      <created>1669469986911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669469986911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>
