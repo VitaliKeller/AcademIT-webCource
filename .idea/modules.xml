@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AcademIT-webCource.iml" filepath="$PROJECT_DIR$/AcademIT-webCource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AcademIT-web.iml" filepath="$PROJECT_DIR$/AcademIT-web.iml" />
     </modules>
   </component>
 </project>
