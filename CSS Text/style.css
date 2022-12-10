@@ -1,7 +1,13 @@
 * {
     color: #676565;
-    font-family: Hevle, serif;
+    font-family: Arial, serif;
     font-size: 16px;
+}
+
+.custom-form {
+    background: #FEEED6;
+    max-width: 741px;
+    padding: 3px 10px 10px 10px;
 }
 
 .custom-h1 {
@@ -9,17 +15,18 @@
     text-transform: uppercase;
     font-weight: unset;
 }
+
 .custom-blue {
-    font-size: 20px
+    font-weight: 600;
+    color: #3A8DB2;
 }
+
 .custom-p {
     font-size: 16px;
     text-align: justify;
     text-indent: 20px;
 }
 
-.custom-form {
-    background: #FEEED6;
-    max-width: 741px;
-    padding: 3px 10px 10px 10px ;
+.custom-old-price {
+    text-decoration: line-through;
 }
