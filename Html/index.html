@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Index page</title>
+    <style>
+        form {
+            box-shadow: 0 3px 10px rgb(0 0 10);
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+<!-- comment -->
+<p><a href="index.html">Форма для заполнения</a> <a href="about.html">Описание</a></p>
+<hr>
+<h1>Задание:</h1>
+<ol>
+    <li>Сделать страницу с формой, в которой будут следующие виды элементов:
+        <ol>
+            <li>текстовые поля ввода,</li>
+            <li>многострочные поля ввода,</li>
+            <li>чекбоксы,</li>
+            <li>радио-баттоны,</li>
+            <li>выпадающие списки с единичным и множественным выбором,</li>
+            <li>кнопка.</li>
+        </ol>
+    </li>
+    <li>И сделайте ссылку на страницу, в которой есть:
+        <ol>
+            <li>картинки,</li>
+            <li>таблица с colspan и rowspan,</li>
+            <li>абзацы,</li>
+            <li>заголовки,</li>
+            <li>ссылки (пусть одна из них ведет на страницу с формой из п.1),</li>
+            <li>горизонтальные линии и</li>
+            <li>переводы строки</li>
+            <li>и что еще угодно</li>
+        </ol>
+    </li>
+</ol>
+<hr>
+
+<form>
+    <ul>
+        <li>
+            <label>Имя:<br>
+                <input type="text" name="userName" placeholder="Ivan"/>
+            </label>
+            <br>
+            <label>Фамилия:<br>
+                <input type="text" name="lastName" placeholder="Ivanov"/>
+            </label>
+        </li>
+        <li>
+            Любимое врямя года:<br>
+            <label>
+                <input type="checkbox" name="season" value="1"/> весна
+            </label><br>
+            <label>
+                <input type="checkbox" name="season" value="2"/> лето
+            </label><br>
+            <label>
+                <input type="checkbox" name="season" value="3"/> осень
+            </label><br>
+            <label>
+                <input type="checkbox" name="season" value="4"/> зима
+            </label><br>
+        </li>
+        <li>
+            радио-баттоны:<br>
+            <label>
+                <input type="radio" name="sex" value="1"> М
+            </label><br>
+            <label>
+                <input type="radio" name="sex" value="2"> Ж
+            </label><br>
+            <label>
+                <input type="radio" name="sex" value="3"> Другое
+            </label>
+        </li>
+        <li>
+            <label>
+                Еда на первое (один вариант):<br>
+                <select name="mainCourse">
+                    <option value="1">Рыба</option>
+                    <option value="2">Мясо</option>
+                    <option value="3">Колбаса</option>
+                </select>
+            </label>
+        </li>
+        <li>
+            <label>
+                Гарнир (множественный выбор)):<br>
+                <select multiple name="garnish">
+                    <option value="1">Толченка</option>
+                    <option value="2">Рис</option>
+                    <option value="3">Макароны</option>
+                    <option value="4">Гречка</option>
+                </select>
+            </label>
+        </li>
+        <li>
+            <label>Комментарий:<br>
+                <textarea name="comment"></textarea>
+            </label>
+        </li>
+        <li>
+            Отправить на обработку: <br>
+            <input type="submit" value="Отправить">
+        </li>
+    </ul>
+</form>
+<br>
+</body>
+</html>
