@@ -1,0 +1,9 @@
+* {
+    color: #676565;
+    font-family: Arial, serif;
+}
+
+.customH1 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
